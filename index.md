@@ -29,4 +29,7 @@ David Isumba
 I was inspired to embark on this project through the perssion of learning new coding languages and extensions. And when SDL2 and Raycasting came up, I thoght I should try it and its AWESOME. I inend to learn more of it and make more improvements on this game and more that I will develop.
 Also this project is one of the projects for Holberton School projects and task required for software engineering course. https://alx-intranet.hbtn.io/concepts/133
 
+My github link: hhtps://github.com/prototypedave.git
+LikedIn: https://www.linkedin.com/in/david-isumba-b83574172
+
 ## Licensing
