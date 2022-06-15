@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# THE MAZE PROJECT 
+The Maze is a game that involves moving around walls finding the right path to the end point, thats why the name the maze since it involves solving a puzzle out of the walls. Its coded in SDL2 in 2D but i used raycasting to 3D
 
-You can use the [editor on GitHub](https://github.com/prototypedave/portfolio_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Installation: 
+    ### Requirements: SDL2
+Fork my github repo https://github.com/prototypedave/portfolio_project/the_maze.git on your terminal run this command gcc -lm -lSDL2 -O2 src/*.c -o the_maze
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Running the game: 
+./the_maze
 
-### Markdown
+## Usage: 
+These are the commands for the game 
+**Left** Turn left. 
+**Right** Turn right. 
+** Up** Move forward. 
+** Down** Move backward. 
+** Shift Hold** to move twice as fast. 
+** t** Toggle between textured and untextured rendering. 
+** m** Toggle the full screen map on/off. 
+** f** Toggle the barrel distortion correction on/off. 
+** [** Decrease the distance to the viewplace (increase FOV) 
+** ]** Increase the distance to the viewplace (decrease FOV) 
+** escape** Quit the game.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Contributors: 
+David Isumba
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prototypedave/portfolio_project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Licensing
