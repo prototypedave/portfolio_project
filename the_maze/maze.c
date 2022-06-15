@@ -17,13 +17,11 @@ const short MAP[MAP_GRID_HEIGHT][MAP_GRID_WIDTH] = {
 };
 
 // Program globals 
-//for 64 system use Uint64
-//for 32 system use Uint32
-Uint64* screenBuffer    = NULL;
-Uint64* redXorTexture   = NULL;
-Uint64* greenXorTexture = NULL;
-Uint64* blueXorTexture  = NULL;
-Uint64* grayXorTexture  = NULL;
+Uint32* screenBuffer    = NULL;
+Uint32* redXorTexture   = NULL;
+Uint32* reXorTexture = NULL;
+Uint32* blueXorTexture  = NULL;
+Uint32* grayXorTexture  = NULL;
 
 const Uint64 COLORS[4] = {
     RGBtoABGR(255, 0, 0),
@@ -32,7 +30,7 @@ const Uint64 COLORS[4] = {
     RGBtoABGR(128, 128, 128)
 };
 
-Uint64* TEXTURES[4];
+Uint32* TEXTURES[4];
 
 //program links
 char gameIsRunning    = TRUE;

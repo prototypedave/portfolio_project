@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include "maze.h"
 
+//calculates the height to draw wall/texture
 float calculateDrawHeight(float rayLength) 
 {
     return distFromViewplane * WALL_SIZE / rayLength;
 }
 
+// draws untextured structure
 void drawUntexturedStrip(int x, float wallYStart, float length, Uint32 ABGRColor, char darken) 
 {
     int y;

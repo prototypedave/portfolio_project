@@ -1,5 +1,9 @@
 #include "maze.h"
 
+/**
+* genwrateXorTexture - gets color wall or generated texture
+*
+*/
 Uint32* generateXorTexture(int size, int redmask, int greenmask, int bluemask) 
 {
     int x, y;

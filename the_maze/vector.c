@@ -1,17 +1,32 @@
 #include "maze.h"
 
+/**
+* vectirAdd - adds vector used on the game
+*
+*Return: added vectir
+*/
 Vector3f vectorAdd(Vector3f* vec1, Vector3f* vec2) 
 {
     Vector3f retVec = {vec1->x + vec2->x, vec1->y + vec2->y, 1};
     return retVec;
 }
 
+/**
+* vectirSubtract - subtract existing vector with a new vector
+*
+* Return: vector
+*/
 Vector3f vectorSubtract(Vector3f* vec1, Vector3f* vec2) 
 {
     Vector3f retVec = {vec1->x - vec2->x, vec1->y - vec2->y, 1};
     return retVec;
 }
 
+/**
+* homogenousVectorScale - multiplies two vectors
+*
+* Return: vector
+*/
 Vector3f homogeneousVectorScale(Vector3f* vec, float scalar) 
 {
     Vector3f retVec = {vec->x * scalar, vec->y * scalar, 1};
@@ -30,6 +45,7 @@ Vector3f vectorProjection(Vector3f* vec1, Vector3f* vec2)
     return homogeneousVectorScale(&pvec, vectorDotProduct(&pvec, vec1));
 }
 
+// gets the square root of vectors
 float homogeneousVectorMagnitude(Vector3f* vec) 
 {
     return sqrt(vec->x * vec->x + vec->y * vec->y);
