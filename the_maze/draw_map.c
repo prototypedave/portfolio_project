@@ -1,4 +1,4 @@
-#include "maze."
+#include "maze.h"
 
 /**
  * render - displays worldmap of the gae

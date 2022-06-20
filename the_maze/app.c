@@ -1,4 +1,4 @@
-#include "maxe.h"
+#include "maze.h"
 
 // function to keep the game running
 void runGame() 
