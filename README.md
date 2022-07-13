@@ -5,6 +5,9 @@ Hello there, Im David a software engineer, I have worked on plenty of projects w
 
 **Imbroglio** 
 -**Imbroglio** is a game that involves moving around walls finding the right path to the end point, thats why the name the maze since it involves solving a puzzle out of the walls. Its coded in SDL2 in 2D but i used raycasting to 3D.
+Deployment link: https://www.fathym.com/dashboard/
+Blog : https://medium.com/@popupgfj/portfolio-project-blog-post-imbroglio-c0e7f67d0396
+Linkedin: https://www.linkedin.com/in/david-isumba-b83574172
 
 
 **Installation:**
