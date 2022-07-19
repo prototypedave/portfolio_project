@@ -1,11 +1,15 @@
-#ifndef _MAP_HEADER_
-#define _MAP_HEADER_
+#ifndef MAP_H
+#define MAP_H
 
-#include "main.h"
+#include <cstdio>
 
-#define MAPSIZE 50
-extern int map[MAPSIZE][MAPSIZE];
-void printMap(int map[MAPSIZE][MAPSIZE]);
-void readMap(int map[MAPSIZE][MAPSIZE]);
+struct Map {
+    size_t w, h;    // map dimensions
+    Map();
+
+    int get(const size_t i, const size_t j) const;
+    bool is_empty(const size_t i, const size_t j) const;
+};
 
 #endif
+
