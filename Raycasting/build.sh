@@ -1,7 +1,7 @@
 #! /bin/bash
 set -e
 BUILD_DIR="build"
-BUILD_BIN="build/sadenstein"
+BUILD_BIN="build/imbroglio"
 
 sudo apt install -y libsdl2-dev
 
